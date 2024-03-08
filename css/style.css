@@ -1,0 +1,89 @@
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+header nav {
+    width: 50%;
+}
+
+
+ul {
+    display: flex;
+    padding: 0
+}
+
+ul li {
+    margin: 0 20px 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+.hero-area {    
+    height: 450px;
+    width: 100%;
+    background-image: url("/img/intricate-explorer-iXn9QlSV2wA-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-me img {
+    height: 300px;
+    width: 300px;
+}
+
+.about-me p {
+    width: 70%;
+}
+
+.content-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.content {
+    display: block;
+    justify-content: center;
+}
+
+.content ul {
+    flex-direction: column;
+}
+
+.work-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    box-shadow: 10px 5px 5px grey;
+    width:250px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+
+
