@@ -32,10 +32,26 @@ nav ul {
 }
 
 
-main {
-    background-image: url("/img/nick-page-zlw0owIGNtc-unsplash.jpg");
+.hero-area {    
+    height: 450px;
+    width: 100%;
+    background-image: url("/img/intricate-explorer-iXn9QlSV2wA-unsplash.jpg");
     background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-me img {
+    height: 300px;
+    width: 300px;
+}
+
+.about-me p {
+    width: 70%;
 }
 
 
