@@ -54,4 +54,36 @@ nav ul {
     width: 70%;
 }
 
+.content-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.content {
+    display: block;
+    justify-content: center;
+}
+
+.content ul {
+    flex-direction: column;
+}
+
+.work-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    box-shadow: 10px 5px 5px grey;
+    width:250px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+
 
