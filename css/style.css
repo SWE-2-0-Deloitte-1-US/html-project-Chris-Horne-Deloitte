@@ -1,7 +1,17 @@
 header {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+header nav {
+    width: 50%;
 }
 
 
@@ -17,7 +27,7 @@ ul li {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
 }
 
